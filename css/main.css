@@ -1,0 +1,240 @@
+*{
+    font-family: "Roboto", sans-serif;  
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Start header */
+
+#header {
+  background-color: #2ddd5c;
+  padding: 8px 30px;
+}
+
+.logo-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navigation {
+  display: inline-block;
+  margin-left: 760px;
+}
+
+.site-items {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-item {
+  display: inline-block;
+}
+
+.middle {
+  margin: 0 30px;
+}
+
+.site-item--link {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.site-item--link:hover {
+  color: #fff;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 3px;
+}
+
+.site-item--link:active {
+  opacity: 0.5;
+}
+
+.active {
+  background-color: #ff1b68;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.active:hover {
+  background-color: #fff;
+  color: #ff1b68;
+}
+
+.active:active {
+  background-color: #ff1b68;
+  color: #fff;
+  border-bottom: 3px solid #ff1b68;
+}
+
+/* End site header */
+
+/* Start site main */
+
+.hero-section {
+  background-image: url("../images/freedom-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+}
+
+.hero-title {
+  margin: 0px;
+  color: #ff1b68;
+  font-size: 1.2rem;
+  padding-top: 230px;
+  margin-left: 60px;
+}
+
+.choose {
+  text-align: center;
+  color: #0e4f1f;
+  font-size: 50px;
+}
+
+/* Plan section */
+
+#plan {
+  margin: 0 auto 100px auto;
+}
+
+/* Plan */
+
+.plan {
+  display: inline-block;
+  background-color: #2ddf5da3;
+  width: 24%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Free plan */
+
+.free {
+  margin-left: 70px;
+}
+
+.plan-title {
+  color: #0e4f1f;
+}
+
+.plan-price {
+  color: rgb(103, 103, 103);
+}
+
+.plan-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.plan-btn {
+  background: #0e4f1f;
+  color: #fff;
+  border: 1px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.plan-btn:hover {
+  background-color: #fff;
+  color: #0e4f1f;
+}
+
+.plan-item {
+  margin-top: 10px;
+}
+
+/* Plus plan */
+
+.plus {
+  background-color: rgba(35, 138, 38, 0.906);
+  color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+}
+
+.plan-annatation {
+  background-color: #fff;
+  color: #238a26e7;
+  border-radius: 8px;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.plus > .plan-price {
+  color: rgb(14, 79, 31);
+}
+
+.plus .plan-list {
+  color: white;
+}
+
+/* End plan section */
+
+/* Key features */
+
+.key-features{
+    text-align: center;
+    background-color: #ff1b68;  
+    color: #fff;
+}
+
+.feature-title {
+    font-size: 60px;
+}
+
+.key-feature{
+    display: inline-block;
+}
+
+.feature-img{
+    background: #ffcede;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 1.25rem;
+    width: 8rem;
+    height: 8rem;   
+}
+
+#footer{
+    background-color: #000;
+    padding: 60px;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer a:hover{
+    color: #424242;
+}
+
+.footer-link{
+    margin-right: 20px;
+}
+
+.first{
+  margin-right: 100px;
+}
+.third{
+  margin-left: 100px;
+}
